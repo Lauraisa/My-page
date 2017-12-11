@@ -1,16 +1,18 @@
 * {
     margin: 0;
     padding: 0;
-    border: 1px solid blue;
+    
 }
+/* Aplicando estilos al header*/
 header {
     background-color: rgb(155, 206, 134);
     overflow: none;
+    height: 60px;
 }
 
 #title {
     font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     padding-top: 8px;
     display: inline-block;
@@ -19,38 +21,65 @@ header {
 
 .menu {
     float: right;
-    margin-left: 20px;
     padding-top: 8px;
+    margin-right: 30px;
+    
+    font-weight: bold;
 }
-.menu ul li{
-    text-decoration: none;
+.menu ul li {
     display: inline-block;
-    list-style: none;
     margin-top: 2px;
 }
 
+.menu a {
+    text-decoration: none;
+    list-style: none;
+    padding-left: 3px;
+    color: white;
+}
+.menu a:hover {
+    color: black;
+}
+
+/* Estilos al section*/
 .section {
     background-color: rgb(255, 250, 174);
     overflow: none;
 }
 .container1 {
     margin-left: 25px;
+    
 }
 .container2 {
     float: right;
     margin-right: 250px;
-    margin-top: -200px;
+    margin-top: -140px;
 }
 
 .parrafo {
     float: left;
     margin-left: 80px;
     margin-right: 500px;
+    margin-top: 20px;
 }
 
 .button {
     border-radius: 8%;
     border: 1px solid gray;
-    margin-left: 20px;
-
+    margin-left: 100px;
+    margin-top: 15px;
 }
+/* footer */
+.footer {
+    background-color: black;
+    height: 50px;
+}
+.footer div {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+
+
