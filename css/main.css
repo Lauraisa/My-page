@@ -3,6 +3,87 @@
     padding: 0;
     
 }
+[class^=col]{
+    float:left;
+    height:auto;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.col-xs-1{
+    width: 10%;
+}
+.col-xs-2{
+    width: 20%;
+}
+.col-xs-3{
+    width: 30%;
+}
+.col-xs-4{
+    width: 40%;
+}
+.col-xs-5{
+    width: 50%;
+}
+.col-xs-6{
+    width: 60%;
+}
+.col-xs-7{
+    width: 70%;
+}
+.col-xs-8{
+    width: 80%;
+}
+.col-xs-9{
+    width: 90%;
+}
+.col-xs-10{
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .col-md-1{
+        width: 10%;
+    }
+    .col-md-2{
+        width: 20%;
+    }
+    .col-md-3{
+        width: 30%;
+    }
+    .col-md-4{
+        width: 40%;
+    }
+    .col-ms-5{
+        width: 50%;
+    }
+    .col-md-6{
+        width: 60%;
+    }
+    .col-md-7{
+        width: 70%;
+    }
+    .col-md-8{
+        width: 80%;
+    }
+    .col-md-9{
+        width: 90%;
+    }
+    .col-md-10{
+        width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    .view-mobile {
+      display: none;
+    }
+    
+    .view-desktop {
+      display: block;
+    }
+  }
+
 /* Aplicando estilos al header*/
 header {
     background-color: rgb(155, 206, 134);
@@ -45,35 +126,60 @@ header {
 /* Estilos al section*/
 .section {
     background-color: rgb(255, 250, 174);
-    overflow: none;
+    
 }
 .container1 {
     margin-left: 25px;
     
+    
 }
-.container2 {
+/*.contbox {
     float: right;
     margin-right: 250px;
     margin-top: -140px;
 }
 
 .parrafo {
-    float: left;
-    margin-left: 80px;
+    margin-left: 70px;
     margin-right: 500px;
-    margin-top: 20px;
-}
+    padding-top: 20px;
+    
+}*/
 
 .button {
     border-radius: 8%;
     border: 1px solid gray;
     margin-left: 100px;
     margin-top: 15px;
+    
 }
+
+/* trabajando los div*/
+.containerbox {
+    
+} 
+ 
+img {
+    
+}
+
+.boxparra {
+    box-sizing: border-box;
+    width: 22%;
+    text-align: justify;
+    
+    
+   
+
+
+
+}
+
 /* footer */
 .footer {
     background-color: black;
     height: 50px;
+    
 }
 .footer div {
     text-align: center;
